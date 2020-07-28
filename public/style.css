@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  background-color: #F4CCB2;
+}
+
+.twilight-head{
+  width: 100%;
+  height: 10%;
+  background-color: white;
+}
+
+.twilight-head h1{
+  color: #39254F;
+  float: left;
+  margin-right: 60%;
+  margin-left: 5%;
+  font-family: 'Merriweather';
+}
+
+.twilight-head button{
+  color: #D993A7;
+  float: left;
+  margin-right: 5%;
+  padding: 10px;
+  width: 40%;
+  border-radius: 13px;
+  font-family: 'Bellota Text';
+}
+
+.twilight-header-button{
+  margin: 20px;
+  display: inline-block;
+  width: 300px;
+}
+
+.twilight-search{
+  background-color: white;
+}
+
+.twilight-signin{
+  background-color: #39254F;
+}
