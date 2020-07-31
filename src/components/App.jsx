@@ -1,5 +1,7 @@
 import React from 'react';
 import Navbar from './navbar.jsx';
+import Image from './image.jsx';
+import Card from './product-card.jsx';
 
 function App() {
   return (
@@ -14,6 +16,20 @@ function App() {
       </div>
 
       <Navbar/>
+
+      <Image/>
+
+      <div>
+        <h2>BEST SELLER</h2>
+        <div className="best-line"></div>
+      </div>
+
+      <div>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+      </div>
 
     </div>
   );

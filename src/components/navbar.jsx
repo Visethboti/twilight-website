@@ -13,13 +13,15 @@ function Navbar() {
               Category
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Skincare</a>
+              <a class="dropdown-item" href="#">BB/CC Cream</a>
+              <a class="dropdown-item" href="#">Toner</a>
+              <a class="dropdown-item" href="#">Mask</a>
+              <a class="dropdown-item" href="#">Cleansing</a>
             </div>
           </li>
 
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#">Best Seller</a>
             </li>
             <li class="nav-item">
@@ -31,7 +33,7 @@ function Navbar() {
             <li class="nav-item">
               <a class="nav-link" href="#">FAQ</a>
             </li>
-            <li class="nav-item" id="n1234">
+            <li class="nav-item" id="mybag">
               <a class="nav-link" href="#">My Bag</a>
             </li>
 
@@ -39,6 +41,9 @@ function Navbar() {
 
         </div>
       </nav>
+
+      <div className="line"></div>
+
     </div>
   );
 }
